@@ -25,6 +25,7 @@ h3 {
     color: #f9c5b8;
     font-size: 0.8em;
     font-style: italic;
+    margin-top: 5px;
 }
 
 .hero__video {
@@ -53,7 +54,7 @@ h3 {
 
 .hero__title{
     text-align: left;
-    font-size: 45px;
+    font-size: 35px;
     text-shadow: 2px 1.5px 0px #F9C5B8;
 }
 
@@ -114,7 +115,7 @@ h3 {
 
 /* Liens du menu */
 .hero__nav li {
-    margin: 3px 0;
+    margin: 4px 0;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -240,25 +241,25 @@ h3 {
     .collection{
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 15px;
     }
     .card{
         /* (largeur totale - nombre de gap * valeur du gap) / nombre de carte */
-        width: calc((100% - 3 * (10px) ) / 4);
+        width: calc((100% - 3 * (15px) ) / 4);
         overflow: hidden; /* Ensure content doesn't overflow */
        
     }
     .hero__video {
-        height: 91vh;
+        height: 105vh;
     }
     .hero__logo img {
-        max-width: 60px;
+        max-width: 70px;
     }
     .hero__nav li a {
         font-size: 14px;
     }
     .hero__title{
-        font-size: 50px;
+        font-size: 67px;
     }
     .hero__entete {
         padding-left: 10px;
@@ -266,27 +267,47 @@ h3 {
         height: 14em;
     }
     .description {
-        padding-top: 15px;
-        padding-left: 200px;
-        padding-right: 200px;
+        padding-top: 20px;
+        padding-left: 260px;
+        padding-right: 260px;
+        padding-bottom: 7px;
+        font-size: 14px;
     }
     .section__selected-works {
         margin-bottom: 60px;
     }
     h2 {
-        font-size: 25px;
+        font-size: 28px;
+    }
+    .section__title, .references__title {
+        margin-bottom: 7px;
+    }
+    .section__cta, .references__cta {
+        font-size: 15px;
     }
     .card__img-container {
-        height: 93px;
+        height: 120px;
     }
     .collection {
-        margin: 0 60px;
+        margin: 0 65px;
     }
+    h3 {
+        font-size: 0.9em;
+    }
+    .references {
+        margin-top: 75px;
+        margin-bottom: 95px;
+    }
+
     .footer__liens{
+        margin-top: 25px;
         margin-bottom: 25px;
     }
     .footer {
         margin: 0 60px; /* Ajuster la valeur pour avoir plus ou moins d'espace */
+    }
+    .footer__liens a {
+        font-size: 0.9em;
     }
     
 }
